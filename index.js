@@ -60,6 +60,9 @@ module.exports = function(fileName, options) {
         }
         // Unwrapped
         buffer.unshift("var templates = {};");
+        buffer.unshift("};");
+        buffer.unshift("_ = require('lodash-node');");
+        buffer.unshift("if (typeof require !== 'undefined' && typeof _ !== 'function') {");
 
         // All wrappers return the templates object
         if (options.wrapper) {
