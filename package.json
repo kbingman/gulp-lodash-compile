@@ -1,27 +1,25 @@
 {
-  "name": "gulp-hogan-compile",
-  "version": "0.2.1",
-  "description": "A gulp plugin to compile mustache HTML templates to JavaScript functions using hogan.",
+  "name": "gulp-lodash-compile",
+  "version": "0.0.1",
+  "description": "A gulp plugin to compile underscore HTML templates to JavaScript functions using lodash.",
   "main": "index.js",
-  "homepage": "https://github.com/paulwib/gulp-hogan-compile",
+  "homepage": "https://github.com/kbingman/gulp-lodash-compile",
   "bugs": {
-    "url": "https://github.com/paulwib/gulp-hogan-compile/issues"
+    "url": "https://github.com/kbingman/gulp-lodash-compile/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/paulwib/gulp-hogan-compile.git"
+    "url": "git://github.com/kbingman/gulp-lodash-compile.git"
   },
   "directories": {
     "test": "test"
   },
   "author": {
-    "name": "Paul Willoughby",
-    "url": "https://github.com/paulwib"
+    "name": "Keith Bingman",
+    "url": "https://github.com/kbingman"
   },
   "dependencies": {
-    "hogan-updated": "~3.1.0",
     "lodash": "~2.4.1",
-    "through": "~2.3.4",
     "gulp-util": "~2.2.14"
   },
   "devDependencies": {
@@ -38,27 +36,15 @@
   "keywords": [
     "gulpplugin",
     "templates",
-    "mustache",
-    "hogan"
+    "lodash",
+    "underscore",
+    "jst"
   ],
   "license": "MIT",
-  "_id": "gulp-hogan-compile@0.2.1",
-  "dist": {
-    "shasum": "f8726309e2ec0e787b2843815b78cd7182d3f128",
-    "tarball": "http://registry.npmjs.org/gulp-hogan-compile/-/gulp-hogan-compile-0.2.1.tgz"
-  },
-  "_from": "gulp-hogan-compile@",
-  "_npmVersion": "1.4.3",
-  "_npmUser": {
-    "name": "paulwib",
-    "email": "paul.j.willoughby@gmail.com"
-  },
   "maintainers": [
     {
-      "name": "paulwib",
-      "email": "paul.j.willoughby@gmail.com"
+      "name": "wantering",
+      "email": "kb@wantering.com"
     }
-  ],
-  "_shasum": "f8726309e2ec0e787b2843815b78cd7182d3f128",
-  "_resolved": "https://registry.npmjs.org/gulp-hogan-compile/-/gulp-hogan-compile-0.2.1.tgz"
+  ]
 }

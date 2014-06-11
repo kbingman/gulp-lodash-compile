@@ -19,5 +19,7 @@
   "undef": true,
   "validthis": true,
   "predef": [
+      "describe",
+      "it"
   ]
 }
